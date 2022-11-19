@@ -11,7 +11,7 @@ We were supposed to train a:
 We implemented a Perceptron with Delta rule in Python. 
 
 <p align="center">
-  <img src="figures/perceptron.png" width="25%">
+  <img src="figures/Perceptron.png" width="25%">
   </br>
   Illustration of a Perceptron neuron
 </p>
