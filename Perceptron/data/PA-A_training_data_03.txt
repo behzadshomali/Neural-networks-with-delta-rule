@@ -1,0 +1,6 @@
+# WS22/23_TNN_Assignment_PA-A_data_File_No_1_PA-A_training_data_03.txt
+# P=4    N=2    M=1   
+0.0 0.0  1.0 
+0.0 1.0  1.0 
+1.0 0.0  1.0 
+1.0 1.0  0.0 
