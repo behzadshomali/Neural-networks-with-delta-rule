@@ -5,7 +5,7 @@ This repository contains our teamwork ([Ilaha Manafova](https://www.linkedin.com
 We were supposed to train a:
 
 1. [Perceptron with Delta rule](#perceptron-with-delta-rule)
-2. [MLP with Delta rule]()
+2. [MLP with Delta rule](#mlp-with-delta-rule)
 
 ## Perceptron with Delta rule
 We implemented a Perceptron with Delta rule in Python. 
@@ -24,3 +24,27 @@ The Perceptron was trained with different data, mostly representing boolean oper
   Learning curves for different data
 </p>
 
+
+## MLP with Delta rule
+We implemented a MLP with Delta rule in Python. For being more straightforward, we implemented the MLP using `dictionary` data structure.
+
+<p align="center">
+  <img src="figures/MLP.png" width="35%">
+  </br>
+  Illustration of a MLP network
+</p>
+
+The MLP was trained with different data. User can choose the number of hidden layers as well as the number of neurons, learning rate, and transfer function in each layer. Following transfer functions are available:
+
+* `Identity function` 
+* `Logistic function`
+* `Tanh` 
+* `ReLU` 
+* `LeakyReLU`
+
+At first, all the weights were initialized randomly to be in the range of [-2, 2]. Furthermore, for training the MLP, we feedforward the input data and then backpropagate the error and eventually update the weights using delta rule. For this project, we applied single step learning. The following figures show the learning curves for different data using 1 hidden layer:
+
+<p align="center">
+  <img src="figures/mlp_learning_curves.png" width="75%">
+  </br>
+  Learning curves for different data
