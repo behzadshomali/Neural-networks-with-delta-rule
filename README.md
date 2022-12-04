@@ -1,6 +1,6 @@
 # Train Neural Networks (NN) with Delta rule
 
-This repository contains our teamwork ([Ilaha Manafova](https://www.linkedin.com/in/ilaha-manafova/) & I) projects in the context of *"Technical Neural Networks (TNN)"* course taught by Prof. Goerke at the University of Bonn.
+This repository contains our teamwork ([Ilaha Manafova](http://github.com/IlahaM) & I) projects in the context of *"Technical Neural Networks (TNN)"* course taught by Prof. Goerke at the University of Bonn.
 
 We were supposed to train a:
 
