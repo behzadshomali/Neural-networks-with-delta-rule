@@ -6,6 +6,7 @@ We were supposed to train a:
 
 1. [Perceptron with Delta rule](#perceptron-with-delta-rule)
 2. [MLP with Delta rule](#mlp-with-delta-rule)
+3. [RBF with Delta rule](#rbf-with-delta-rule)
 
 ## Perceptron with Delta rule
 We implemented a Perceptron with Delta rule in Python. 
@@ -48,3 +49,16 @@ At first, all the weights were initialized randomly to be in the range of [-2, 2
   <img src="figures/mlp_learning_curves.png" width="75%">
   </br>
   Learning curves for different data
+
+## RBF with Delta rule
+We implemented a simplified version of RBF with Delta rule in Python. The RBF was trained with different data. User can choose the number of RBF neurons ($K$) and learning rate ($\eta$).
+
+At first, all the weights were initialized randomly to be in the range of *[-0.5, 0.5]*. The centers ($C_k$) were chosen randomly from the input data and the standard deviations ($\sigma_k$) for the *Gaussian transfer function* were initialized randomly (obviously this could have be done using some heuristic, but for sake of simplicity we did not do that).
+
+For training the RBF, we feedforward the input data and then backpropagate the error and eventually update the weights using delta rule (single step learning). The following figures show the learning curves for different data:
+
+<p align="center">
+  <img src="figures/rbf_learning_curves.png" width="75%">
+  </br>
+  Learning curves for different data
+</p>
